@@ -1,7 +1,7 @@
 #!/bin/bash
 
-Nani=Modi
-Ammulu=Melony
+Nani=Nani
+Ammulu=Bhavani
 
 
 echo "$Nani: $Ammulu, why do you always say “later” and then never do it?"
