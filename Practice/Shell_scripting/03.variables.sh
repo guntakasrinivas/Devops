@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Nani=Nani$1
+Nani=$1
 Ammulu=$2
 
 
