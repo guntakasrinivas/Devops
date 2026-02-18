@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Nani: Ammulu, why do you always say “later” and then never do it?
-
+echo "Nani: Ammulu, why do you always say “later” and then never do it?"
 echo "Ammulu: Because when I say “now,” you start overthinking everything."
 echo "Nani: That’s not overthinking. That’s planning."
 echo "Ammulu: No, that’s you turning one simple thing into ten problems."
