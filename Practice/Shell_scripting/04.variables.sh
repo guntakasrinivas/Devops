@@ -6,4 +6,4 @@ echo "User Name is: $USER_NAME"
 
 echo "Please Enter your Password:"
 read -s PASSWORD
-echo "password is: $PASSWORD"
+echo "password is: $PASSWORD"           #generally we dont print passwords on the screen
