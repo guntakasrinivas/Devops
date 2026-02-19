@@ -10,3 +10,4 @@ echo "Given number is: $Number is equal to 20"
 
 else
 echo "Given number is: $Number is less than 20"
+fi
