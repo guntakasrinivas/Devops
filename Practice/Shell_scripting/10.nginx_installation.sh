@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERID=$(id-u)
+USERID=$(id -u)
 if [ $USERID -ne 0 ]; then
 echo "Please run the script using root access"
 exit 1
@@ -10,7 +10,7 @@ echo "installing nginx"
 
 dnf install nginx -y
 
-if [ $? -ne 0 ]; then
+if [ $USERID -ne 0 ]; then
 echo "Installing nginx.. Failure"
 
 exit 1
@@ -23,7 +23,7 @@ dnf install MySql -y
 
 fi
 
-if [ $? -ne 0 ]; then
+if [ $USERID -ne 0 ]; then
 echo "Installing Mysql.. Failure"
 
 exit 1
