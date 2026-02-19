@@ -18,7 +18,7 @@ else
 echo "instaling nginx.. Success"
 fi
 
-dnf install MySqld -y
+dnf install mysql-server -y
 
 if [ $USERID -ne 0 ]; then
 echo "Installing Mysql.. Failure"
