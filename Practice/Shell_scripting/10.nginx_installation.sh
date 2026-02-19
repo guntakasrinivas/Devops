@@ -10,7 +10,7 @@ echo "installing nginx"
 
 dnf install nginx -y
 
-if [ $? -ne 0]; then
+if [ $? -ne 0 ]; then
 echo "Installing nginx.. Failure"
 
 exit 1
@@ -20,7 +20,7 @@ echo "instaling nginx.. Success"
 
 dnf install MySql -y
 
-if [ $? -ne 0]; then
+if [ $? -ne 0 ]; then
 echo "Installing Mysql.. Failure"
 
 exit 1
