@@ -15,9 +15,9 @@ echo "Installing nginx.. Failure"
 
 exit 1
 fi
-
-else
+elfi
 echo "instaling nginx.. Success"
+fi
 
 dnf install MySql -y
 
