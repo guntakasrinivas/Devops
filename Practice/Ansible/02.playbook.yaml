@@ -1,6 +1,6 @@
-- Name: Hello world
-  host: web
-  task:
+- name: Hello world
+  hosts: web
+  tasks:
   - name: Print Hello world
     ansible.buintin.debug:
     msg: "Hello world"
